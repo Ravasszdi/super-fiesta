@@ -1,0 +1,10 @@
+.cellak {
+    display: grid;                     /* 2‑dimplexes grid */
+    grid-template-columns: repeat(3, 1fr); /* 3 oszlop */
+    grid-gap: 8px;                     /* fénylat a cell‑ek között */
+    gap: 8px;                          /* egyedi fénylat (az CSS‑grid‑ben) */
+    padding: 12px 16px;
+    border-radius: 8px;
+    background: #f0f4f8;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+}
